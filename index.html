@@ -1,36 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <link rel = "stylesheet" href = "style.css"> 
+    <link rel = "stylesheet" href = "//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap" rel="stylesheet">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 </head>
 <body>
-    <div id="page-wrapper">
-        <header id="header">
-            <div class="logo">
+    <div id = "page-wrapper">
+        <header id = "header">
+            <div class = "logo">
                 <img 
-                    src="https://www.pngitem.com/pimgs/m/100-1005640_stray-kids-logo-hd-png-download.png" 
-                    alt="SKZ logo" 
-                    id="header-img" 
+                    src = "https://www.pngitem.com/pimgs/m/100-1005640_stray-kids-logo-hd-png-download.png" 
+                    alt = "SKZ logo" 
+                    id = "header-img" 
                 />
             </div>
 
-            <nav id="nav-bar">
+            <nav id = "nav-bar">
                 <ul>
-                    <li><a href="#features" class="nav-link">Features</a></li>
-                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
-                    <li><a href="#pricing" id="nav-link">Pricing</a></li>
+                    <li><a href = "#features" class = "nav-link">Features</a></li>
+                    <li><a href = "#mv" class = "nav-link">Music Videos</a></li>
+                    <li><a href = "#pricing" id = "nav-link">Pricing</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div class="container">
-            <section id="hero">
-                <h2>Welcome to SKZone (Stray Kids' Zone)</h2>
+        <div class = "container">
+            <section id = "hero">
+                <h2>Welcome to Stray Kids Album Zone</h2>
+                <form action = "https://www.freecodecamp.com/email-submit" id = "form">
+                    <input 
+                        type = "email"
+                        name = "email"
+                        id = "email"
+                        placeholder = "Enter your email to sign up to our Newspaper"
+                        required
+                    />
+                    <input 
+                        type = "submit"
+                        id = "submit"
+                        class = "submitBtn"
+                        value = "Get Started"
+                    />
+                </form>
             </section>
+
+            <div class = "container">
+                <section id = "features">
+
+                    <div class = "grid">
+                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "desc">
+                            <h2>Our Store</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi itaque dolor ex. Delectus facilis qui quo modi officiis culpa tempore velit accusantium laboriosam commodi laborum, reiciendis sapiente obcaecati, dolores aliquid odio autem vero quidem nulla magnam. Voluptatem esse accusamus eum magnam illum distinctio omnis alias! Debitis, vero nam. Nihil, ducimus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "grid">
+                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "desc">
+                            <h2>Album Quality</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi itaque dolor ex. Delectus facilis qui quo modi officiis culpa tempore velit accusantium laboriosam commodi laborum, reiciendis sapiente obcaecati, dolores aliquid odio autem vero quidem nulla magnam. Voluptatem esse accusamus eum magnam illum distinctio omnis alias! Debitis, vero nam. Nihil, ducimus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "grid">
+                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "desc">
+                            <h2>Fast and Reliable Shipping</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi itaque dolor ex. Delectus facilis qui quo modi officiis culpa tempore velit accusantium laboriosam commodi laborum, reiciendis sapiente obcaecati, dolores aliquid odio autem vero quidem nulla magnam. Voluptatem esse accusamus eum magnam illum distinctio omnis alias! Debitis, vero nam. Nihil, ducimus.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id = "mv">
+                    <iframe width="1000" height="536" src="https://www.youtube.com/embed/EaswWiwMVs8" title="Stray Kids 소리꾼 (Thunderous) M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+
+                <section id = "pricing">
+                    <div class = "product" id = "album">
+                        <div class="level">NOEASY</div>
+                        <h3>$29.59</h3>
+                        <p>
+                            Lorem ipsum <br>
+                            dolor sit <br>
+                            amet  consectetur <br>
+                            adipisicing elit. <br>
+                            Quo, repellendus.
+                        </p>
+                        <button class="select">Select</button>
+                    </div>
+
+                    <div class="product" id="album">
+                        <div class="level">GO LIVE (GO生)</div>
+                        <h3>$33.99</h3>
+                        <p>
+                            Lorem ipsum <br>
+                            dolor sit <br>
+                            amet  consectetur <br>
+                            adipisicing elit. <br>
+                            Quo, repellendus.
+                        </p>
+                        <button class="select">Select</button>
+                    </div>
+
+                    <div class="product" id="album">
+                        <div class="level">NOEASY</div>
+                        <h3>$29.50</h3>
+                        <p>
+                            Lorem ipsum <br>
+                            dolor sit <br>
+                            amet  consectetur <br>
+                            adipisicing elit. <br>
+                            Quo, repellendus.
+                        </p>
+                        <button class="select">Select</button>
+                    </div>
+                </section>
+
+                <footer>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <span>Copyright 2022, Stray Kids Album Zone</span>
+                </footer>
+            </div>
+
         </div>
 
     </div>
