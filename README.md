@@ -27,9 +27,9 @@
  
 - Within the form, there is a submit input with a corresponding id="submit". ✅
 
-- When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
+- When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit). ✅
 
-- The navbar should always be at the top of the viewport.
+- The navbar should always be at the top of the viewport. ✅
 
 - My product landing page should have at least one media query.
 
