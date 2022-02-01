@@ -11,9 +11,9 @@
 
 - Within the #header element I can see a nav element with a corresponding id="nav-bar". ✅
 
-- I can see at least three clickable elements inside the nav element, each with the class nav-link.
+- I can see at least three clickable elements inside the nav element, each with the class nav-link. ✅
 
-- When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+- When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. ✅
 
 - I can watch an embedded product video with id="video".
 
