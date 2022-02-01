@@ -15,7 +15,7 @@
 
 - When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page. ✅
 
-- I can watch an embedded product video with id="video".
+- I can watch an embedded product video with id="video". ✅
 
 - My landing page has a form element with a corresponding id="form".
 
