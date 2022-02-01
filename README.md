@@ -17,9 +17,9 @@
 
 - I can watch an embedded product video with id="video". ✅
 
-- My landing page has a form element with a corresponding id="form".
+- My landing page has a form element with a corresponding id="form". ✅
 
-- Within the form, there is an input field with id="email" where I can enter an email address.
+- Within the form, there is an input field with id="email" where I can enter an email address. ✅
 
 - The #email input field should have placeholder text to let the user know what the field is for.
 
