@@ -4,7 +4,7 @@
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <link rel = "stylesheet" href = "style.css"> 
-    <link rel = "stylesheet" href = "//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
         <header id = "header">
             <div class = "logo">
                 <img 
-                    src = "https://www.pngitem.com/pimgs/m/100-1005640_stray-kids-logo-hd-png-download.png" 
+                    src = "https://1000logos.net/wp-content/uploads/2020/03/Stray-Kids-Logo.png" 
                     alt = "SKZ logo" 
                     id = "header-img" 
                 />
@@ -26,20 +26,21 @@
                 <ul>
                     <li><a href = "#features" class = "nav-link">Features</a></li>
                     <li><a href = "#mv" class = "nav-link">Music Videos</a></li>
-                    <li><a href = "#pricing" id = "nav-link">Pricing</a></li>
+                    <li><a href = "#pricing" class = "nav-link">Pricing</a></li>
                 </ul>
             </nav>
         </header>
 
         <div class = "container">
-            <section id = "hero">
-                <h2>Welcome to Stray Kids Album Zone</h2>
+            <section id = "intro">
+                <h2 class = "title">Welcome to Stray Kids Album Zone</h2>
                 <form action = "https://www.freecodecamp.com/email-submit" id = "form">
-                    <input 
+                    <label>Want to get the latest news, inventory restock, and more updates?<br>Sign up for our weekly <strong>Newsletter</strong></label>
+                    <input
                         type = "email"
                         name = "email"
                         id = "email"
-                        placeholder = "Enter your email to sign up to our Newspaper"
+                        placeholder = "Enter your email"
                         required
                     />
                     <input 
@@ -55,7 +56,9 @@
                 <section id = "features">
 
                     <div class = "grid">
-                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "icon">
+                            <i class="far fa-store"></i>
+                        </div>
                         <div class = "desc">
                             <h2>Our Store</h2>
                             <p>
@@ -65,7 +68,9 @@
                     </div>
 
                     <div class = "grid">
-                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "icon">
+                            <i class="fal fa-sparkles"></i>
+                        </div>
                         <div class = "desc">
                             <h2>Album Quality</h2>
                             <p>
@@ -75,7 +80,9 @@
                     </div>
 
                     <div class = "grid">
-                        <div class = "icon"><i class = "fad fa-album"></i></div>
+                        <div class = "icon">
+                            <i class="far fa-shipping-fast"></i>
+                        </div>
                         <div class = "desc">
                             <h2>Fast and Reliable Shipping</h2>
                             <p>
@@ -86,7 +93,7 @@
                 </section>
 
                 <section id = "mv">
-                    <iframe width="1000" height="536" src="https://www.youtube.com/embed/EaswWiwMVs8" title="Stray Kids 소리꾼 (Thunderous) M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id = "video" width="1000" height="536" src="https://www.youtube.com/embed/EaswWiwMVs8" title="Stray Kids 소리꾼 (Thunderous) M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
 
                 <section id = "pricing">
