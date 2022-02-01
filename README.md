@@ -5,7 +5,7 @@
 ***
 
 #### Requirements
-- My product landing page should have a header element with a corresponding id="header".
+- My product landing page should have a header element with a corresponding id="header". ✅
 
 - I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
 
