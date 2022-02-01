@@ -7,9 +7,9 @@
 #### Requirements
 - My product landing page should have a header element with a corresponding id="header". ✅
 
-- I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+- I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here. ✅
 
-- Within the #header element I can see a nav element with a corresponding id="nav-bar".
+- Within the #header element I can see a nav element with a corresponding id="nav-bar". ✅
 
 - I can see at least three clickable elements inside the nav element, each with the class nav-link.
 
