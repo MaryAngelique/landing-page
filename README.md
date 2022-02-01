@@ -21,9 +21,9 @@
 
 - Within the form, there is an input field with id="email" where I can enter an email address. ✅
 
-- The #email input field should have placeholder text to let the user know what the field is for.
+- The #email input field should have placeholder text to let the user know what the field is for. ✅
 
-- The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+- The #email input field uses HTML5 validation to confirm that the entered text is an email address. ✅
 
 - Within the form, there is a submit input with a corresponding id="submit".
 
